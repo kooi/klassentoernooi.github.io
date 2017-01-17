@@ -7,16 +7,18 @@ Totaal:
 {% assign totalePunten = '' %}
 {% for klassennaam in site.data.klassen %}
   {% assign punten = 0 %}
-  {% assign onderdeelpunten = 0 %}
 
   {% for hash in site.data.onderbouw %}
-    {% assign onderdeel = hash[1] %}
+  {% assign onderdeelpunten = 0 %}
+  {% assign onderdeel = hash[1] %}
+	{% unless onderdeel.geheim %}
     {% for klas in onderdeel.resultaten %}
 	  {% if klas.klas == klassennaam %}
 	    {% assign onderdeelpunten = (klas.punten | times: onderdeel.weging) %}
 	    {% assign punten = (punten | plus: onderdeelpunten) %}
 	  {% endif %}
     {% endfor %}
+	{% endunless %}
   {% endfor %}
 
   {% assign totalePunten = (totalePunten | append: punten) %}
