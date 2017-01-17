@@ -34,9 +34,10 @@ permalink: /onderbouw/
 
 {% for hash in site.data.onderbouw %}
 {% assign onderdeel = hash[1] %}
+{% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
   <br>
   {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x):
-  {% for klas in onderdeel.resultaten %}
+  {% for klas in resultaten %}
   <ul>
   <li> {{ klas.klas }} - {{ klas.punten }} </li>
   </ul>
