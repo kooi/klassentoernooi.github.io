@@ -6,7 +6,7 @@ permalink: /onderbouw/
 Totaal: 
 {% assign totalePunten = '' %}
 {% assign puntenLijst = ('' | split: '|') %}
-{% for klassennaam in site.data.klassen %}
+{% for klassennaam in site.data.onderbouw.klassen %}
 {% assign punten = 0 %}
 {% assign puntenLengte = 0 %} 
   {% for hash in site.data.onderbouw %}
