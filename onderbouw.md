@@ -38,6 +38,8 @@ Totaal:
 
 {% for hash in site.data.onderbouw %}
 {% assign onderdeel = hash[1] %}
+{% unless onderdeel.geheim %}
+
 {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
 <ul>
 
@@ -50,4 +52,5 @@ Totaal:
 {% endfor %}
 
 </ul>
+{% endunless %}
 {% endfor %}
