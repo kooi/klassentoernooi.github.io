@@ -15,7 +15,8 @@ Totaal:
   {% unless onderdeel.geheim %}
     {% for klas in onderdeel.resultaten %}
 	  {% if klas.klas == klassennaam %}
-	    {% assign punten = (punten | plus: (klas.punten | times: onderdeel.weging) ) %}
+        {% assign onderdeelPunten = (klas.punten | times: onderdeel.weging) %}
+        {% assign punten = (punten | plus: onderdeelPunten ) %}
       {% endif %}
     {% endfor %}
 	{% endunless %}
