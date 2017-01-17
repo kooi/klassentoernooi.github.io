@@ -44,7 +44,7 @@ Totaal:
 {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
 {% for klas in resultaten %}
   {% if klas.punten %}
-    {% assign punten = klas.punten %}
+    {% assign punten = (klas.punten | times: onderdeel.weging) %}
   {% endif %}
   <li> {{ forloop.index }}. {{ klas.klas }} - {{ punten }} punten </li>
 {% endfor %}
