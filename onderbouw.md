@@ -5,36 +5,41 @@ permalink: /onderbouw/
 ---
 Totaal: 
 {% assign totalePunten = '' %}
+{% assign puntenLijst = ('' | split: '|') %}
 {% for klassennaam in site.data.klassen %}
-  {% assign punten = 0 %}
-
+{% assign punten = 0 %}
+{% assign puntenLengte = 0 %} 
   {% for hash in site.data.onderbouw %}
   {% assign onderdeelpunten = 0 %}
   {% assign onderdeel = hash[1] %}
-	{% unless onderdeel.geheim %}
+  {% unless onderdeel.geheim %}
     {% for klas in onderdeel.resultaten %}
 	  {% if klas.klas == klassennaam %}
-	    {% assign onderdeelpunten = (klas.punten | times: onderdeel.weging) %}
-	    {% assign punten = (punten | plus: onderdeelpunten) %}
-	  {% endif %}
+	    {% assign punten = (punten | plus: (klas.punten | times: onderdeel.weging) ) %}
+      {% endif %}
     {% endfor %}
 	{% endunless %}
   {% endfor %}
-
-  {% assign totalePunten = (totalePunten | append: punten) %}
-  {% assign totalePunten = (totalePunten | append: ":" %}
-  {% assign totalePunten = (totalePunten | append: klassennaam %}
-  {% assign totalePunten = (totalePunten | append: '|' %}
-
+  {% assign punten = (punten | prepend: "00000" | split: "" | reverse %}
+  {% assign punten = (punten | join: "" | truncate: 4, "" | split: "" | reverse | join: "") %}
+  {% assign totalePunten = (totalePunten | append: punten | append: ":" | append: klassennaam | append: "|") %} 
 {% endfor %}
-{% assign totalePunten = (totalePunten | split: '|' ) %}
-{% assign totalePunten = (totalePunten | sort | reverse) %}
-
+{% assign totalePunten = (totalePunten | split: "|" | sort | reverse) %}
 
 <ul>
 {% for klas in totalePunten %}
-  {% assign klassenpunten = (klas | split: ':' %}
-  <li> {{ forloop.index }}. {{ klassenpunten[1] }} - {{ klassenpunten[0] }} punten </li>
+  {% assign klasArray = (klas | split: ':' ) %}
+  {% assign klassenPunten = (klasArray[0]) %}
+  {% assign klassenPuntenArray = (klassenPunten| split: "") %}
+  {% assign klassenNaam = klasArray[1] %}
+  {% for number in klassenPuntenArray %}
+    {% if number == "0" %}
+	  {% assign klassenPunten = (klassenPunten | remove_first: "0") %}
+	{% else %}
+	  {% break %}
+	{% endif %}
+  {% endfor %}
+  <li> {{ forloop.index }}. {{ klassenNaam }} - {{ klassenPunten }} punten </li>
 {% endfor %}
 </ul>
 
