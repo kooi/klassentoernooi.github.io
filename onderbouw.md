@@ -32,7 +32,7 @@ Totaal:
 <ul>
 {% for klas in totalePunten %}
   {% assign klassenpunten = (klas | split: ':' %}
-  <li> {{ klassenpunten[1] }} - {{ klassenpunten[0] }} </li>
+  <li> {{ forloop.index }}. {{ klassenpunten[1] }} - {{ klassenpunten[0] }} punten </li>
 {% endfor %}
 </ul>
 
@@ -46,7 +46,7 @@ Totaal:
   {% if klas.punten %}
     {% assign punten = klas.punten %}
   {% endif %}
-  <li> {{ klas.klas }} - {{ punten }} </li>
+  <li> {{ forloop.index }}. {{ klas.klas }} - {{ punten }} punten </li>
 {% endfor %}
 
 </ul>
