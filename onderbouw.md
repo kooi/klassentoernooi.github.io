@@ -38,8 +38,11 @@ Totaal:
   <br>
   {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x):
   {% for klas in resultaten %}
-  <ul>
-  <li> {{ klas.klas }} - {{ klas.punten }} </li>
-  </ul>
+    {% if klas.punten %}
+	  {% assign punten = klas.punten %}
+	{% endif %}
+    <ul>
+    <li> {{ klas.klas }} - {{ punten }} </li>
+    </ul>
   {% endfor %}
 {% endfor %}
