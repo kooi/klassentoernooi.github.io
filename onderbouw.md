@@ -8,18 +8,23 @@ Totaal:
 {% assign totalePunten = '' %}
 {% for klassennaam in site.data.klassen %}
   {% assign punten = 0 %}
+  {% assign onderdeelpunten = 0 %}
+
   {% for hash in site.data.onderbouw %}
-  {% assign onderdeel = hash[1] %}
+    {% assign onderdeel = hash[1] %}
     {% for klas in onderdeel.resultaten %}
-	{% if klas.klas == klassennaam %}
-	  {% assign punten = (punten | plus: (klas.punten | times: onderdeel.weging)) %}
-	{% endif %}
+	  {% if klas.klas == klassennaam %}
+	    {% assign onderdeelpunten = (klas.punten | times: onderdeel.weging) %}
+	    {% assign punten = (punten | plus: onderdeelpunten) %}
+	  {% endif %}
     {% endfor %}
   {% endfor %}
+
   {% assign totalePunten = (totalePunten | append: punten) %}
   {% assign totalePunten = (totalePunten | append: ":" %}
   {% assign totalePunten = (totalePunten | append: klassennaam %}
   {% assign totalePunten = (totalePunten | append: '|' %}
+
 {% endfor %}
 {% assign totalePunten = (totalePunten | split: '|' ) %}
 {% assign totalePunten = (totalePunten | sort ) %}
