@@ -4,7 +4,6 @@ title: Punten onderbouw
 permalink: /onderbouw/
 ---
 Totaal: 
-<ul>
 {% assign totalePunten = '' %}
 {% for klassennaam in site.data.klassen %}
   {% assign punten = 0 %}
@@ -39,15 +38,16 @@ Totaal:
 
 {% for hash in site.data.onderbouw %}
 {% assign onderdeel = hash[1] %}
+{{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
+<ul>
+
 {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
-  <br>
-  {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x):
-  {% for klas in resultaten %}
-    {% if klas.punten %}
-	  {% assign punten = klas.punten %}
-	{% endif %}
-    <ul>
-    <li> {{ klas.klas }} - {{ punten }} </li>
-    </ul>
-  {% endfor %}
+{% for klas in resultaten %}
+  {% if klas.punten %}
+    {% assign punten = klas.punten %}
+  {% endif %}
+  <li> {{ klas.klas }} - {{ punten }} </li>
+{% endfor %}
+
+</ul>
 {% endfor %}
