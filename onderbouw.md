@@ -3,7 +3,7 @@ layout: page
 title: Punten onderbouw
 permalink: /onderbouw/
 ---
-<a> Totaal: 
+Totaal: 
 <ul>
 {% assign totalePunten = '' %}
 {% for klassennaam in site.data.klassen %}
