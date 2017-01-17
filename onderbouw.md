@@ -27,7 +27,7 @@ Totaal:
 
 {% endfor %}
 {% assign totalePunten = (totalePunten | split: '|' ) %}
-{% assign totalePunten = (totalePunten | sort ) %}
+{% assign totalePunten = (totalePunten | sort | reverse) %}
 
 
 <ul>
