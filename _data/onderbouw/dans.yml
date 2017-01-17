@@ -1,12 +1,12 @@
-weging: 2
+weging: 3
 resultaten:
   - klas: 0A
-    punten: 1
+    punten: 4
   - klas: 0B
-    punten: 5
+    punten: 1
   - klas: 0C
     punten: 3
   - klas: 0D
-    punten: 2
+    punten: 5
   - klas: 0E
-    punten: 4
+    punten: 3
