@@ -79,6 +79,7 @@ Totaal:
 {% for hash in site.data.onderbouw %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
+<<<<<<< HEAD
 
   {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
   {% assign aantalKlassen = (onderdeel.resultaten | size) %}
@@ -86,6 +87,15 @@ Totaal:
   {% if onderdeel.resultaten[0].punten %}
   {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
 
+=======
+
+  {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
+  {% assign aantalKlassen = (onderdeel.resultaten | size) %}
+
+  {% if onderdeel.resultaten[0].punten %}
+  {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
+
+>>>>>>> 679a11de5d6a711af53ea2db9293b1f6dad71854
   <ul>
   {% for klas in resultaten %}
 

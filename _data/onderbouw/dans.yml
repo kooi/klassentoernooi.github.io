@@ -2,7 +2,11 @@ weging: 2
 resultaten:
   - klas: 0A
     jury:
+<<<<<<< HEAD
       - 10
+=======
+      - 6
+>>>>>>> 679a11de5d6a711af53ea2db9293b1f6dad71854
       - 5
       - 9
       - 10
@@ -11,11 +15,19 @@ resultaten:
   - klas: 0B
     jury:
       - 10
+<<<<<<< HEAD
       - 5
       - 9
       - 10
       - 1
       - 8
+=======
+      - 10
+      - 10
+      - 10
+      - 10
+      - 10
+>>>>>>> 679a11de5d6a711af53ea2db9293b1f6dad71854
   - klas: 0C
     jury:
       - 5
