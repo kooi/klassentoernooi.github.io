@@ -1,12 +1,42 @@
-weging: 3
+weging: 2
 resultaten:
   - klas: 0A
-    punten: 4
+    jury:
+      - 10
+      - 5
+      - 9
+      - 10
+      - 1
+      - 8
   - klas: 0B
-    punten: 1
+    jury:
+      - 10
+      - 5
+      - 9
+      - 10
+      - 1
+      - 8
   - klas: 0C
-    punten: 3
+    jury:
+      - 5
+      - 4
+      - 3
+      - 5
+      - 2
+      - 6
   - klas: 0D
-    punten: 5
+    jury:
+      - 10
+      - 1
+      - 8
+      - 4
+      - 3
+      - 5
   - klas: 0E
-    punten: 3
+    jury:
+      - 6
+      - 7
+      - 7
+      - 5
+      - 8
+      - 5
