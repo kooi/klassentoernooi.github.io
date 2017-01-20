@@ -2,7 +2,7 @@ weging: 2
 resultaten:
   - klas: 0A
     jury:
-      - 6
+      - 10
       - 5
       - 9
       - 10
@@ -11,11 +11,11 @@ resultaten:
   - klas: 0B
     jury:
       - 10
+      - 5
+      - 9
       - 10
-      - 10
-      - 10
-      - 10
-      - 10
+      - 1
+      - 8
   - klas: 0C
     jury:
       - 5

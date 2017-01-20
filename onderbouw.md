@@ -113,12 +113,23 @@ Totaal:
       {% assign klassenArray = (klassenArray | push: klassenPunten) %}
     {% endfor %}
     {% assign klassenArray = (klassenArray | sort | reverse ) %}
-  <ul>
+<ul>
+
     {% for klasString in klassenArray %}
       {% assign klasArray = (klasString | split: ":") %}
-<li>{{ forloop.index }}. {{ klasArray[1] }} - {{ aantalKlassen | minus: forloop.index0 | times: onderdeel.weging }} punten </li>
+      {% assign score = klasArray[0] %}
+      {% if score == vorigeScore %}
+        {% assign herhaling = 1 %}
+      {% else %}
+        {% assign herhaling = 0 %}
+      {% endif %}
+
+{{ klasArray[1] }} - Score: {{ score | inspect }}, vorigeScore: {{ vorigeScore | inspect }}, herhaling: {{ herhaling }}
+      {% assign punten = (aantalKlassen | minus: forloop.index0 | plus: herhaling | times: onderdeel.weging) %}
+<li>{{ forloop.index }}. {{ klasArray[1] }} - {{ punten }} punten </li>
+      {% assign vorigeScore = score %}
     {% endfor %}
-  </ul>
+</ul>
 
   {% endif %}
 
