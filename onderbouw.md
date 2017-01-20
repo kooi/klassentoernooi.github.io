@@ -125,7 +125,7 @@ Totaal:
       {% endif %}
 
       {% assign punten = (aantalKlassen | minus: forloop.index0 | plus: herhaling | times: onderdeel.weging) %}
-<li>{{ forloop.index }}. {{ klasArray[1] }} - {{ punten }} punten </li>
+<li>{{ forloop.index | minus: herhaling }}. {{ klasArray[1] }} - {{ punten }} punten </li>
       {% assign vorigeScore = score %}
     {% endfor %}
 </ul>
