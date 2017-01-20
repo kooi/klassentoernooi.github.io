@@ -79,7 +79,6 @@ Totaal:
 {% for hash in site.data.onderbouw %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
-<<<<<<< HEAD
 
   {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
   {% assign aantalKlassen = (onderdeel.resultaten | size) %}
@@ -87,15 +86,6 @@ Totaal:
   {% if onderdeel.resultaten[0].punten %}
   {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
 
-=======
-
-  {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
-  {% assign aantalKlassen = (onderdeel.resultaten | size) %}
-
-  {% if onderdeel.resultaten[0].punten %}
-  {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
-
->>>>>>> 679a11de5d6a711af53ea2db9293b1f6dad71854
   <ul>
   {% for klas in resultaten %}
 
@@ -129,12 +119,11 @@ Totaal:
       {% assign klasArray = (klasString | split: ":") %}
       {% assign score = klasArray[0] %}
       {% if score == vorigeScore %}
-        {% assign herhaling = 1 %}
+        {% capture herhaling %}{{herhaling | plus: 1 }}{% endcapture %}
       {% else %}
         {% assign herhaling = 0 %}
       {% endif %}
 
-{{ klasArray[1] }} - Score: {{ score | inspect }}, vorigeScore: {{ vorigeScore | inspect }}, herhaling: {{ herhaling }}
       {% assign punten = (aantalKlassen | minus: forloop.index0 | plus: herhaling | times: onderdeel.weging) %}
 <li>{{ forloop.index }}. {{ klasArray[1] }} - {{ punten }} punten </li>
       {% assign vorigeScore = score %}
