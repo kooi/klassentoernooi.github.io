@@ -43,10 +43,20 @@ Totaal:
 
     {% endfor %}
     {% assign klassenArray = (klassenArray | sort | reverse ) %}
+    {% assign herhaling = 0 %}
     {% for klasString in klassenArray %}
       {% assign klasArray = (klasString | split: ":") %}
+
+      {% assign vorigeScore = score %}
+      {% assign score = klasArray[0] %}
+      {% if score == vorigeScore %}
+        {% capture herhaling %}{{ herhaling | plus: 1 }}{% endcapture %}
+      {% else %}
+        {% assign herhaling = 0 %}
+      {% endif %}
+
       {% if klassennaam == klasArray[1] %}
-         {% assign onderdeelPunten = (aantalKlassen | minus: forloop.index0 | times: onderdeel.weging) %}
+         {% assign onderdeelPunten = (aantalKlassen | minus: forloop.index0 | plus: herhaling | times: onderdeel.weging) %}
          {% assign punten = (punten | plus: onderdeelPunten ) %}
       {% endif %}
     {% endfor %}
