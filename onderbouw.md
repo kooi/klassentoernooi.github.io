@@ -3,12 +3,12 @@ layout: page
 title: Punten onderbouw
 permalink: /onderbouw/
 ---
-Totaal: 
+Totaal:
 {% assign totalePunten = '' %}
 {% assign puntenLijst = ('' | split: '|') %}
 {% for klassennaam in site.data.onderbouw_klassen %}
 {% assign punten = 0 %}
-{% assign puntenLengte = 0 %} 
+{% assign puntenLengte = 0 %}
   {% for hash in site.data.onderbouw %}
   {% assign onderdeelpunten = 0 %}
   {% assign onderdeel = hash[1] %}
@@ -23,7 +23,7 @@ Totaal:
   {% endfor %}
   {% assign punten = (punten | prepend: "00000" | split: "" | reverse %}
   {% assign punten = (punten | join: "" | truncate: 4, "" | split: "" | reverse | join: "") %}
-  {% assign totalePunten = (totalePunten | append: punten | append: ":" | append: klassennaam | append: "|") %} 
+  {% assign totalePunten = (totalePunten | append: punten | append: ":" | append: klassennaam | append: "|") %}
 {% endfor %}
 {% assign totalePunten = (totalePunten | split: "|" | sort | reverse) %}
 
@@ -45,20 +45,50 @@ Totaal:
 </ul>
 
 {% for hash in site.data.onderbouw %}
-{% assign onderdeel = hash[1] %}
-{% unless onderdeel.geheim %}
+  {% assign onderdeel = hash[1] %}
+  {% unless onderdeel.geheim %}
 
-{{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
-<ul>
+  {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
+  {% assign aantalKlassen = (onderdeel.resultaten | size) %}
 
-{% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
-{% for klas in resultaten %}
-  {% if klas.punten %}
-    {% assign punten = (klas.punten | times: onderdeel.weging) %}
+  {% if onderdeel.resultaten[0].punten %}
+  {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
+
+  <ul>
+  {% for klas in resultaten %}
+
+      {% assign punten = (klas.punten | times: onderdeel.weging) %}
+      <li> {{ forloop.index }}. {{ klas.klas }} - {{ punten }} punten </li>
+  {% endfor %}
+  </ul>
+
+  {% else %}
+    {% assign klassenArray = "" | split: "" %}
+    {% for klas in onderdeel.resultaten %}
+      {% assign juries = (klas.jury | sort) %}
+      {% assign juries = (juries | pop | pop | reverse | pop | pop | reverse) %}
+      {% assign aantalJuries = (juries | size) %}
+      {% assign jurypunten=0.0 %}
+
+      {% for jury in juries %}
+        {% assign jurypunten = (jurypunten | plus: jury) %}
+      {% endfor %}
+
+      {% assign jurypunten = (jurypunten | divided_by: aantalJuries | prepend: "") %}
+      {% assign jurypunten = (jurypunten | prepend: "00000" | split: "" | reverse %}
+      {% assign jurypunten = (jurypunten | join: "" | truncate: 4, "" | split: "" | reverse | join: "") %}
+      {% assign klassenPunten = (jurypunten | append: ":" | append: klas.klas) %}
+      {% assign klassenArray = (klassenArray | push: klassenPunten) %}
+    {% endfor %}
+    {% assign klassenArray = (klassenArray | sort | reverse ) %}
+  <ul>
+    {% for klasString in klassenArray %}
+      {% assign klasArray = (klasString | split: ":") %}
+<li>{{ forloop.index }}. {{ klasArray[1] }} - {{ aantalKlassen | minus: forloop.index0 | times: onderdeel.weging }} punten </li>
+    {% endfor %}
+  </ul>
+
   {% endif %}
-  <li> {{ forloop.index }}. {{ klas.klas }} - {{ punten }} punten </li>
-{% endfor %}
 
-</ul>
-{% endunless %}
+  {% endunless %}
 {% endfor %}
