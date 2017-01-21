@@ -6,13 +6,13 @@ permalink: /onderbouw/
 Totaal:
 {% assign totalePunten = '' %}
 {% assign puntenLijst = ('' | split: '|') %}
-{% assign aantalKlassen = (site.data.onderbouw_klassen | size ) %}
+{% assign aantalKlassen = (site.data.onderbouw.klassen | size ) %}
 
-{% for klassennaam in site.data.onderbouw_klassen %}
+{% for klassennaam in site.data.onderbouw.klassen %}
   {% assign punten = 0 %}
   {% assign puntenLengte = 0 %}
 
-  {% for hash in site.data.onderbouw %}
+  {% for hash in site.data.onderbouw.resultaten %}
   {% assign onderdeelpunten = 0 %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
@@ -86,7 +86,7 @@ Totaal:
 {% endfor %}
 </ul>
 
-{% for hash in site.data.onderbouw %}
+{% for hash in site.data.onderbouw.resultaten %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
 
