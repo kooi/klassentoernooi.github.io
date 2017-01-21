@@ -60,9 +60,16 @@ Totaal:
          {% assign punten = (punten | plus: onderdeelPunten ) %}
       {% endif %}
     {% endfor %}
-  {% endif %}
+    {% endif %}
 	{% endunless %}
   {% endfor %}
+
+  {% for klas in site.data.onderbouw.strafpunten %}
+      {% if klas.klas == klassennaam %}
+        {% assign punten = (punten | minus: klas.strafpunten) %}
+      {% endif %}
+  {% endfor %}
+
   {% assign punten = (punten | prepend: "00000" | split: "" | reverse %}
   {% assign punten = (punten | join: "" | truncate: 4, "" | split: "" | reverse | join: "") %}
   {% assign totalePunten = (totalePunten | append: punten | append: ":" | append: klassennaam | append: "|") %}
@@ -85,6 +92,11 @@ Totaal:
   <li> {{ forloop.index }}. {{ klassenNaam }} - {{ klassenPunten }} punten </li>
 {% endfor %}
 </ul>
+
+Strafpunten:
+{% for klas in site.data.onderbouw.strafpunten %}
+  * {{ klas.klas }}: {{ klas.strafpunten }} strafpunten - {{ klas.reden }}
+{% endfor %}
 
 {% for hash in site.data.onderbouw.resultaten %}
   {% assign onderdeel = hash[1] %}
