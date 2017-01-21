@@ -1,0 +1,13 @@
+weging: 2
+geheim: false
+resultaten:
+  - klas: 7A
+    punten: 1
+  - klas: 7B
+    punten: 5
+  - klas: 7C
+    punten: 3
+  - klas: 7D
+    punten: 2
+  - klas: 7E
+    punten: 4

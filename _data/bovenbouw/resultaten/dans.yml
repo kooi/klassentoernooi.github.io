@@ -1,0 +1,42 @@
+weging: 2
+resultaten:
+  - klas: 7A
+    jury:
+      - 4
+      - 5
+      - 9
+      - 7
+      - 9
+      - 8
+  - klas: 7B
+    jury:
+      - 7
+      - 5
+      - 9
+      - 2
+      - 1
+      - 8
+  - klas: 7C
+    jury:
+      - 5
+      - 4
+      - 3
+      - 5
+      - 2
+      - 6
+  - klas: 7D
+    jury:
+      - 6
+      - 1
+      - 8
+      - 4
+      - 3
+      - 5
+  - klas: 7E
+    jury:
+      - 6
+      - 7
+      - 7
+      - 5
+      - 8
+      - 5
