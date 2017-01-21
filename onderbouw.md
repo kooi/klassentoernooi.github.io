@@ -86,6 +86,11 @@ Totaal:
 {% endfor %}
 </ul>
 
+Strafpunten:
+{% for klas in site.data.onderbouw.strafpunten %}
+  * {{ klas.klas }}: {{ klas.strafpunten }} strafpunten - {{ klas.reden }}
+{% endfor %}
+
 {% for hash in site.data.onderbouw.resultaten %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
