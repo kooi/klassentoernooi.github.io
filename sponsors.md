@@ -10,5 +10,5 @@ permalink: /sponsors/
 
 {% for hash in site.data.sponsors %}
 {{ hash[1].naam }}: <br/>
-<img src="{{ site.url }}/{{ hash[1].logo }}"> <br/>
+<img src="{{ hash[1].logo }}"> <br/>
 {% endfor %}
