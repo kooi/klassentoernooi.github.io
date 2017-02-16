@@ -112,7 +112,7 @@ Strafpunten:
 {% for hash in site.data.onderbouw.resultaten %}
 <div class="klas">
   {% assign herhaling = 0 %}
-  {% assign vorigeScore = ''}
+  {% assign vorigeScore = '' %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
 
