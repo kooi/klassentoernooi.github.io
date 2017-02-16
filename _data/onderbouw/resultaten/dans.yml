@@ -1,42 +1,22 @@
-weging: 2
+weging: 1
 resultaten:
-  - klas: 0A
-    jury:
-      - 10
-      - 5
-      - 9
-      - 10
-      - 1
-      - 8
-  - klas: 0B
-    jury:
-      - 10
-      - 5
-      - 9
-      - 10
-      - 1
-      - 8
-  - klas: 0C
-    jury:
-      - 5
-      - 4
-      - 3
-      - 5
-      - 2
-      - 6
-  - klas: 0D
-    jury:
-      - 10
-      - 1
-      - 8
-      - 4
-      - 3
-      - 5
-  - klas: 0E
-    jury:
-      - 6
-      - 7
-      - 7
-      - 5
-      - 8
-      - 5
+  - klas: 1A
+    punten: 1
+  - klas: 1B
+    punten: 1
+  - klas: 1C
+    punten: 0
+  - klas: 1D
+    punten: 0
+  - klas: 1E
+    punten: 0
+  - klas: 2A
+    punten: 0
+  - klas: 2B
+    punten: 0
+  - klas: 2C
+    punten: 0
+  - klas: 2D
+    punten: 0
+  - klas: 2E
+    punten: 0

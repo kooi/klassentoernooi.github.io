@@ -1,13 +1,32 @@
-weging: 2
-geheim: false
+weging: 1
 resultaten:
-  - klas: 7A
-    punten: 1
-  - klas: 7B
-    punten: 5
-  - klas: 7C
-    punten: 3
-  - klas: 7D
-    punten: 2
-  - klas: 7E
-    punten: 4
+  - klas: 3A
+    punten: 0
+  - klas: 3B
+    punten: 0
+  - klas: 3C
+    punten: 0
+  - klas: 3D
+    punten: 0
+  - klas: 3E
+    punten: 0
+  - klas: 4A
+    punten: 0
+  - klas: 4B
+    punten: 0
+  - klas: 4C
+    punten: 0
+  - klas: 4D
+    punten: 0
+  - klas: 4E
+    punten: 0
+  - klas: 5A
+    punten: 0
+  - klas: 5B
+    punten: 0
+  - klas: 5C
+    punten: 0
+  - klas: 5D
+    punten: 0
+  - klas: 5E
+    punten: 0

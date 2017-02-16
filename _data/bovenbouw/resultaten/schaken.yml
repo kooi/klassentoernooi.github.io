@@ -1,42 +1,32 @@
 weging: 1
 resultaten:
-  - klas: 7A
-    jury:
-      - 6
-      - 5
-      - 9
-      - 7
-      - 9
-      - 8
-  - klas: 7B
-    jury:
-      - 42
-      - 69
-      - 420
-      - 6000000
-      - 11
-      - 64
-  - klas: 7C
-    jury:
-      - 5
-      - 4
-      - 3
-      - 5
-      - 2
-      - 6
-  - klas: 7D
-    jury:
-      - 6
-      - 1
-      - 8
-      - 4
-      - 3
-      - 5
-  - klas: 7E
-    jury:
-      - 6
-      - 7
-      - 7
-      - 5
-      - 8
-      - 5
+  - klas: 3A
+    punten: 0
+  - klas: 3B
+    punten: 0
+  - klas: 3C
+    punten: 0
+  - klas: 3D
+    punten: 0
+  - klas: 3E
+    punten: 0
+  - klas: 4A
+    punten: 0
+  - klas: 4B
+    punten: 0
+  - klas: 4C
+    punten: 0
+  - klas: 4D
+    punten: 0
+  - klas: 4E
+    punten: 0
+  - klas: 5A
+    punten: 0
+  - klas: 5B
+    punten: 0
+  - klas: 5C
+    punten: 0
+  - klas: 5D
+    punten: 0
+  - klas: 5E
+    punten: 0
