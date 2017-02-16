@@ -84,12 +84,23 @@ Totaal:
   {% assign klassenNaam = klasArray[1] %}
   {% for number in klassenPuntenArray %}
     {% if number == "0" %}
-	  {% assign klassenPunten = (klassenPunten | remove_first: "0") %}
+	   {% assign klassenPunten = (klassenPunten | remove_first: "0") %}
 	{% else %}
-	  {% break %}
+	   {% break %}
 	{% endif %}
   {% endfor %}
-  <li> {{ forloop.index }}. {{ klassenNaam }} - {{ klassenPunten }} punten </li>
+  {% assign score = klassenPunten %}
+  {% if score == vorigeScore %}
+    {% capture herhaling %}{{herhaling | plus: 1 }}{% endcapture %}
+  {% else %}
+    {% assign herhaling = 0 %}
+  {% endif %}
+  {% if klassenPunten == "" %}
+  <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - 0 punten </li>
+  {% else %}
+  <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - {{ klassenPunten }} punten </li>
+  {% endif %}
+  {% assign vorigeScore = score %}
 {% endfor %}
 </ul>
 
