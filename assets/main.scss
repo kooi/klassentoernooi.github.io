@@ -28,7 +28,7 @@ $on-laptop:        800px;
 
 .fotos div {
   display: inline-block;
-	width: 33%;
+  width: 33%;
   padding: 0;
   border: 0;
   margin: 0;
@@ -36,6 +36,12 @@ $on-laptop:        800px;
 
 .fotos img {
 	width: 100%;
+}
+
+.klas {
+    width: 50%;
+    display: inline;
+    float: left;
 }
 
 // Minima also includes a mixin for defining media queries.
