@@ -110,6 +110,8 @@ Strafpunten:
 {% endfor %}
 
 {% for hash in site.data.bovenbouw.resultaten %}
+  {% assign herhaling = 0 %}
+  {% assign vorigeScore = ''}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
 
@@ -123,7 +125,15 @@ Strafpunten:
   {% for klas in resultaten %}
 
       {% assign punten = (klas.punten | times: onderdeel.weging) %}
-      <li> {{ forloop.index }}. {{ klas.klas }} - {{ punten }} punten </li>
+      {% assign score = punten %}
+      {% if score == vorigeScore %}
+        {% capture herhaling %}{{herhaling | plus: 1 }}{% endcapture %}
+      {% else %}
+        {% assign herhaling = 0 %}
+      {% endif %}
+
+      <li> {{ forloop.index | minus: herhaling }}. {{ klas.klas }} - {{ punten }} punten </li>
+      {% assign vorigeScore = score %}
   {% endfor %}
   </ul>
 
