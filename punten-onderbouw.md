@@ -70,11 +70,12 @@ Totaal:
       {% endif %}
   {% endfor %}
 
-  {% assign punten = (punten | prepend: "00000" | split: "" | reverse %}
-  {% assign punten = (punten | join: "" | truncate: 4, "" | split: "" | reverse | join: "") %}
+  {% capture punten %}{{10000 | minus: punten}}{% endcapture %}
+  {% assign punten = (punten | prepend: "000000" | split: "" | reverse %}
+  {% assign punten = (punten | join: "" | truncate: 5, "" | split: "" | reverse | join: "") %}
   {% assign totalePunten = (totalePunten | append: punten | append: ":" | append: klassennaam | append: "|") %}
 {% endfor %}
-{% assign totalePunten = (totalePunten | split: "|" | sort | reverse) %}
+{% assign totalePunten = (totalePunten | split: "|" | sort ) %}
 
 <ul>
 {% for klas in totalePunten %}
@@ -98,7 +99,7 @@ Totaal:
   {% if klassenPunten == "" %}
   <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - 0 punten </li>
   {% else %}
-  <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - {{ klassenPunten }} punten </li>
+  <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - {{ 10000 | minus: klassenPunten }} punten </li>
   {% endif %}
   {% assign vorigeScore = score %}
 {% endfor %}
