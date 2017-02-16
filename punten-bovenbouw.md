@@ -102,7 +102,7 @@ Strafpunten:
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
 
-  {{ hash[0] | capitalize }} (weging: {{ onderdeel.weging }}x)
+  {{ hash[0] | capitalize | replace: "_"," "}} (weging: {{ onderdeel.weging }}x)
   {% assign aantalKlassen = (onderdeel.resultaten | size) %}
 
   {% if onderdeel.resultaten[0].punten %}
