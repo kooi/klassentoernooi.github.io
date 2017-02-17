@@ -121,12 +121,24 @@ Strafpunten:
   {% assign aantalKlassen = (onderdeel.resultaten | size) %}
 
   {% if onderdeel.resultaten[0].punten %}
-  {% assign resultaten = (onderdeel.resultaten | sort: 'punten' | reverse) %}
+  {% assign resultaten = ("" | split: "") %}
+  {% for item in onderdeel.resultaten %}
+    {% assign naam = item.klas %}
+    {% capture punten %}{{ 10000 | minus: item.punten }}{% endcapture %}
+
+    {% assign punten = (punten | prepend: "000000" | split: "" | reverse %}
+    {% assign punten = (punten | join: "" | truncate: 5, "") %}
+    {% assign punten = (punten | split: "" | reverse | join: "") %}
+    {% assign klasOnderdeel = ("" | append: punten | append: ":" | append: naam) %}
+    {% assign resultaten = (resultaten | push: klasOnderdeel) %}
+  {% endfor %}
+  {% assign resultaten = (resultaten | sort ) %}
 
   <ul>
-  {% for klas in resultaten %}
-
-      {% assign punten = (klas.punten | times: onderdeel.weging) %}
+  {% for klasIn in resultaten %}
+      {% assign klas = (klasIn | split: ":") %}
+      {% capture punten %}{{10000 | minus: klas[0]}}{% endcapture %}
+      {% assign punten = (punten | times: onderdeel.weging) %}
       {% assign score = punten %}
       {% if score == vorigeScore %}
         {% capture herhaling %}{{herhaling | plus: 1 }}{% endcapture %}
@@ -134,7 +146,7 @@ Strafpunten:
         {% assign herhaling = 0 %}
       {% endif %}
 
-      <li> {{ forloop.index | minus: herhaling }}. {{ klas.klas }} - {{ punten }} punten </li>
+      <li> {{ forloop.index | minus: herhaling }}. {{ klas[1] }} - {{ punten }} punten </li>
       {% assign vorigeScore = score %}
   {% endfor %}
   </ul>
