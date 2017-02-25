@@ -9,6 +9,6 @@ permalink: /sponsors/
 </p>
 
 {% for hash in site.data.sponsors %}
-{{ hash[1].naam }}: <br/>
-<img src="{{ hash[1].logo }}"> <br/>
+<h2>{{ hash[1].naam }}: </h2>
+<img src="{{ hash[1].logo }}">
 {% endfor %}
