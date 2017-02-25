@@ -9,6 +9,8 @@ permalink: /sponsors/
 </p>
 
 {% for hash in site.data.sponsors %}
+<div class="kolom">
 <h2>{{ hash[1].naam }}: </h2>
-<img src="{{ hash[1].logo }}">
+<img width="400px" src="{{ hash[1].logo }}">
+</div>
 {% endfor %}
