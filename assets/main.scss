@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #0000ff;
+$background-color: #ffdd00;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -27,7 +27,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 body {
-	background-color: #0000ff;
+	background-color: $background-color;
 }
 
 .fotos div {
