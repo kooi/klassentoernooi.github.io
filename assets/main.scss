@@ -69,6 +69,11 @@ body {
   break-inside: avoid-column;
 }
 
+.sponsor {
+  width: 200px;
+  margin: 20px;
+}
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
