@@ -5,7 +5,7 @@ permalink: /sponsors/
 ---
 
 <p>
-    Graag wil de organisatie van het klassentoernooi op het barlaeus de volgende sponsors bedanken:
+    Graag wil de organisatie van het klassentoernooi op het Barlaeus de volgende sponsors bedanken:
 </p>
 
 {% for sponsor in site.data.sponsors %}
