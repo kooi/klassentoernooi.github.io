@@ -8,9 +8,11 @@ permalink: /sponsors/
     Graag wil de organisatie van het klassentoernooi op het barlaeus de volgende sponsors bedanken:
 </p>
 
-{% for hash in site.data.sponsors %}
-<div class="kolom">
-<h2>{{ hash[1].naam }}: </h2>
-<img width="400px" src="{{ hash[1].logo }}">
-</div>
+{% for sponsor in site.data.sponsors %}
+<p>
+<h2>{{ sponsor.naam }}</h2>
+<a {% if sponsor.link %}href="{{sponsor.link}}"{% endif %}>
+<img width="400px" src="{{ sponsor.logo }}" al>
+</a>
+<p>
 {% endfor %}
