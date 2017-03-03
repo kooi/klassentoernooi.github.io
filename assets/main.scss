@@ -47,10 +47,6 @@ $on-laptop:        800px;
 	padding-left: 40px;
 }
 
-.site-nav {
-	float: left;
-}
-
 .nav-trigger {
     display: none;
 }
@@ -102,6 +98,11 @@ label[for="nav-trigger"] {
   margin: 20px;
 }
 
+.site-logo {
+	float: left;
+	margin-top: 20px;
+}
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -115,7 +116,11 @@ label[for="nav-trigger"] {
 @import "minima";
 
 .site-title {
-	font-size: 60px;
-	margin-top: 20px;
-	margin-bottom: 10px;
+	font-size: 90px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.site-nav {
+	width: 100%
 }

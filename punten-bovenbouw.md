@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Punten bovenbouw
+title: Punten BB
 permalink: /bovenbouw/
 ---
 <div class="inhoud">

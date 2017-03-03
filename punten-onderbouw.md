@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Punten onderbouw
+title: Punten OB
 permalink: /onderbouw/
 ---
 <div class="inhoud">
