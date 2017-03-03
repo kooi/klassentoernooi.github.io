@@ -94,7 +94,7 @@ label[for="nav-trigger"] {
 }
 
 .sponsor {
-  width: 200px;
+  width: 400px;
   margin: 20px;
 }
 
@@ -116,11 +116,15 @@ label[for="nav-trigger"] {
 @import "minima";
 
 .site-title {
-	font-size: 90px;
+	font-size: 80px;
 	margin-top: 40px;
 	margin-left: 10px;
 }
 
 .site-nav {
 	width: 100%
+}
+
+.site-nav .page-link:not(:last-child) {
+	margin-right: 40px;
 }
