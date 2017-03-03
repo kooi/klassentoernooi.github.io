@@ -26,6 +26,10 @@ $content-width:    1000px;
 $on-palm:          800px;
 $on-laptop:        900px;
 
+video {
+	width: 100%;
+}
+
 .kopje {
 	text-align: center;
 	font-weight: bold;
