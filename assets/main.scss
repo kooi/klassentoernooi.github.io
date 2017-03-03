@@ -26,8 +26,22 @@ $content-width:    1000px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+.kopje {
+	text-align: center;
+	font-weight: bold;
+}
+
+.inhoud {
+	background-color: #f8f9fa;
+	width: 300px;
+	border: 2px;
+	border-style: solid;
+	border-color: #a2a9b1;
+}
+
 .inhoud p {
 	margin: 0em;
+	padding-left: 40px;
 }
 
 .site-nav {

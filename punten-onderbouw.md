@@ -4,6 +4,7 @@ title: Punten onderbouw
 permalink: /onderbouw/
 ---
 <div class="inhoud">
+<div class="kopje">Inhoud</div>
 <p><a href="#Totaal">Totaal</a></p>
 <p><a href="#Strafpunten">Strafpunten</a></p>
 {% for onderdeel in site.data.onderbouw.resultaten %}
