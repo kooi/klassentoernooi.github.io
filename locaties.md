@@ -3,7 +3,20 @@ layout: page
 title: Locaties
 permalink: /locaties/
 ---
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d100921.8397227734!2d-122.50711698562192!3d37.77111185957552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sVondelpark!5e0!3m2!1sen!2sus!4v1464784986282" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+ <div class="kaart"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK0TuDzO86O8ZNN-f6-M9So5EE0ZXKJ5g&callback=initMap">
+    </script>
