@@ -51,11 +51,11 @@ $on-laptop:        800px;
 }
 
 .kolommen {
-  -webkit-column-count: 2;
+  -webkit-column-width: 350px;
   -webkit-column-gap: 50px;
-  -moz-column-count: 2;
+  -moz-column-width: 350px;
   -moz-column-gap: 10px;
-  column-count: 2;
+  column-width: 350px;
   column-gap: 10px;
 }
 

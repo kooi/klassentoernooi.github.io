@@ -3,7 +3,7 @@ layout: page
 title: Punten bovenbouw
 permalink: /bovenbouw/
 ---
-Totaal:
+<h3>Totaal:</h3>
 {% assign totalePunten = '' %}
 {% assign puntenLijst = ('' | split: '|') %}
 {% assign aantalKlassen = (site.data.bovenbouw.klassen | size ) %}
@@ -105,19 +105,20 @@ Totaal:
 {% endfor %}
 </ul>
 
-Strafpunten:
+<h3>Strafpunten:</h3>
 {% for klas in site.data.bovenbouw.strafpunten %}
   * {{ klas.klas }}: {{ klas.strafpunten }} strafpunten - {{ klas.reden }}
 {% endfor %}
 
+<div class="kolommen">
 {% for hash in site.data.bovenbouw.resultaten %}
-<div class="kolom">
+<div class="blok">
   {% assign herhaling = 0 %}
   {% assign vorigeScore = '' %}
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
 
-  {{ hash[0] | capitalize | replace: "_"," "}} (weging: {{ onderdeel.weging }}x)
+  <h3>{{ hash[0] | capitalize | replace: "_"," "}} (weging: {{ onderdeel.weging }}x)</h3>
   {% assign aantalKlassen = (onderdeel.resultaten | size) %}
 
   {% if onderdeel.resultaten[0].punten %}
@@ -192,3 +193,4 @@ Strafpunten:
   {% endunless %}
 </div>
 {% endfor %}
+</div>
