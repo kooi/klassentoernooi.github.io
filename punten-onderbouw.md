@@ -108,7 +108,7 @@ permalink: /onderbouw/
   {% if klassenPunten == "" %}
   <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - 0 punten </li>
   {% else %}
-  <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - {{ 10000 | minus: klassenPunten }} punten </li>
+  <li> {{ forloop.index | minus: herhaling }}. {{ klassenNaam }} - {{ 10000 | minus: klassenPunten }} {% if klassenPunten=='9999' %}punt{% else %}punten{% endif %} </li>
   {% endif %}
   {% assign vorigeScore = score %}
 {% endfor %}
@@ -156,7 +156,7 @@ permalink: /onderbouw/
         {% assign herhaling = 0 %}
       {% endif %}
 
-      <li> {{ forloop.index | minus: herhaling }}. {{ klas[1] }} - {{ punten }} punten </li>
+      <li> {{ forloop.index | minus: herhaling }}. {{ klas[1] }} - {{ punten }} {% if punten==1 %}punt{% else %}punten{% endif %} </li>
       {% assign vorigeScore = score %}
   {% endfor %}
   </ul>
@@ -192,7 +192,7 @@ permalink: /onderbouw/
       {% endif %}
 
       {% assign punten = (aantalKlassen | minus: forloop.index0 | plus: herhaling | times: onderdeel.weging) %}
-<li>{{ forloop.index | minus: herhaling }}. {{ klasArray[1] }} - {{ punten }} punten </li>
+<li>{{ forloop.index | minus: herhaling }}. {{ klasArray[1] }} - {{ punten }} {% if punten==1 %}punt{% else %}punten{% endif %} </li>
       {% assign vorigeScore = score %}
     {% endfor %}
 </ul>
