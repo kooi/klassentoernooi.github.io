@@ -3,7 +3,15 @@ layout: page
 title: Punten onderbouw
 permalink: /onderbouw/
 ---
-<h3>Totaal:</h3>
+<div class="inhoud">
+<p><a href="#Totaal">Totaal</a></p>
+<p><a href="#Strafpunten">Strafpunten</a></p>
+{% for onderdeel in site.data.onderbouw.resultaten %}
+<p><a href="#{{ onderdeel[0] | capitalize }}">{{ onderdeel[0] | capitalize | replace: "_"," " }}</a></p>
+{% endfor %}
+</div>
+
+<h3><span id="Totaal">Totaal:</span></h3>
 {% assign totalePunten = '' %}
 {% assign puntenLijst = ('' | split: '|') %}
 {% assign aantalKlassen = (site.data.onderbouw.klassen | size ) %}
@@ -105,7 +113,7 @@ permalink: /onderbouw/
 {% endfor %}
 </ul>
 
-<h3>Strafpunten:</h3>
+<h3><span id="Strafpunten">Strafpunten:</span></h3>
 {% for klas in site.data.onderbouw.strafpunten %}
   * {{ klas.klas }}: {{ klas.strafpunten }} strafpunten - {{ klas.reden }}
 {% endfor %}
@@ -118,7 +126,7 @@ permalink: /onderbouw/
   {% assign onderdeel = hash[1] %}
   {% unless onderdeel.geheim %}
 
-  <h3>{{ hash[0] | capitalize | replace: "_"," "}} (weging: {{ onderdeel.weging }}x)</h3>
+  <h3><span id="{{hash[0] | capitalize}}">{{ hash[0] | capitalize | replace: "_"," "}}</span> (weging: {{ onderdeel.weging }}x)</h3>
   {% assign aantalKlassen = (onderdeel.resultaten | size) %}
 
   {% if onderdeel.resultaten[0].punten %}
