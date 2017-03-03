@@ -5,8 +5,10 @@ permalink: /locaties/
 ---
 <div class="inhoud">
 <div class="kopje">Inhoud</div>
+{% for locatie in site.data.locaties %}
 <a href="#{{ locatie.naam }}">{{ locatie.naam | capitalize }}</a>
 </div>
+{% endfor %}
 
 {% for locatie in site.data.locaties %}
 <div id="locatie.naam"><h3>{{ locatie.naam | capitalize }}:</h3></div>
