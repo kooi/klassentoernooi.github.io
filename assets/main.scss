@@ -48,6 +48,18 @@ $on-laptop:        800px;
 	float: left;
 }
 
+.nav-trigger {
+    display: none;
+}
+
+label[for="nav-trigger"] {
+  display: block;
+  float: right;
+  width: 36px;
+  height: 36px;
+  z-index: 2;
+}
+
 .fotos div {
   display: inline-block;
   width: 33%;
