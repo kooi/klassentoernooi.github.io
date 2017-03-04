@@ -12,11 +12,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #130a3f;
+$text-color:       #111;
 $background-color: #e4d5b8;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #464646;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -145,4 +145,8 @@ label[for="nav-trigger"] {
          url('arabolic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+body {
+	background-image: url('/assets/zand.jpg');
 }
