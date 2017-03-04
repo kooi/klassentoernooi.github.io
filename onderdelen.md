@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Onderdelen
-permalink: /onderdelen/
+permalink: "/onderdelen/"
+layout: page
 ---
+
 {% assign onderdelen = (site.data.onderdelen | sort) %}
 
 <div class="inhoud">

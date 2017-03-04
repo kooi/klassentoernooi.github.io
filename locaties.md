@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Locaties
-permalink: /locaties/
+permalink: "/locaties/"
+layout: page
 ---
+
 <div class="inhoud">
 <div class="kopje">Inhoud</div>
 {% for locatie in site.data.locaties %}

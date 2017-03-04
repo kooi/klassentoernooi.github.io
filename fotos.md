@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Foto's
-permalink: /fotos/
+permalink: "/fotos/"
+layout: page
 ---
+
 <div class="fotos">
 {% for image in site.static_files %}
     {% if image.path contains 'fotos' %}

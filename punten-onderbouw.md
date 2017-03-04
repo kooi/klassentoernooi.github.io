@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Punten OB
-permalink: /onderbouw/
+permalink: "/onderbouw/"
+layout: page
 ---
+
 <div class="inhoud">
 <div class="kopje">Inhoud</div>
 <p><a href="#Totaal">Totaal</a></p>

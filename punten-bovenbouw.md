@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Punten BB
-permalink: /bovenbouw/
+permalink: "/bovenbouw/"
+layout: page
 ---
+
 <div class="inhoud">
 <div class="kopje">Inhoud</div>
 <p><a href="#Totaal">Totaal</a></p>

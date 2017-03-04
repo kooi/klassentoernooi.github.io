@@ -1,7 +1,7 @@
 ---
-type: page
 title: Sponsors
-permalink: /sponsors/
+permalink: "/sponsors/"
+type: page
 ---
 
 <p>

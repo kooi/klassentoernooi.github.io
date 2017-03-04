@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Regels
-permalink: /regels/
+permalink: "/regels/"
+layout: page
 ---
+
 * Als je de maximale tijdsduur van een onderdeel overschrijdt moet je per
 minuut 3 punten inleveren
 * Alcohol- en drugsgebruik wordt niet getolereerd in de school of bij de
