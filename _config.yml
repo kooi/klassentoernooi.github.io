@@ -12,8 +12,8 @@ description: 'Dit is de site van het klassentoernooi van het Barlaeus gymnasium 
   2017.
 
 '
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 repository: klassentoernooi/klassentoernooi.github.io
 markdown: kramdown
 theme: minima
