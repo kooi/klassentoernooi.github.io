@@ -8,8 +8,8 @@ layout: page
 <div class="kopje">Inhoud</div>
 {% for locatie in site.data.locaties %}
 <p><a href="#{{ locatie.naam }}">{{ locatie.naam | capitalize }}</a></p>
-</div>
 {% endfor %}
+</div>
 
 {% for locatie in site.data.locaties %}
 <h3><span id="{{ locatie.naam }}">{{ locatie.naam | capitalize }}:</span></h3>
