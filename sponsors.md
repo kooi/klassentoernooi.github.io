@@ -12,7 +12,7 @@ type: page
 <p>
 <h2>{{ sponsor.naam }}</h2>
 <a {% if sponsor.link %}href="{{sponsor.link}}"{% endif %}>
-<img width="400px" src="{{ sponsor.logo }}" al>
+<img width="400px" src="{{ sponsor.logo }}" alt="{{ sponsor.naam }}">
 </a>
 </p>
 {% endfor %}
