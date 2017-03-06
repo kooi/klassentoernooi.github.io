@@ -12,7 +12,7 @@ type: page
 {% for sponsor in site.data.sponsors %}
 <div class="blok">
 <p>
-<h2>{{ sponsor.naam }}</h2>
+<h2>{{ sponsor.naam }}:</h2>
 <a {% if sponsor.link %}href="{{sponsor.link}}"{% endif %}>
 <img width="400px" src="{{ sponsor.logo }}" alt="{{ sponsor.naam }}">
 </a>
