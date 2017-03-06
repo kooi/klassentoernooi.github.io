@@ -14,5 +14,5 @@ type: page
 <a {% if sponsor.link %}href="{{sponsor.link}}"{% endif %}>
 <img width="400px" src="{{ sponsor.logo }}" al>
 </a>
-<p>
+</p>
 {% endfor %}
