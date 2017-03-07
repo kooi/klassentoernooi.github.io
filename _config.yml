@@ -8,10 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 'Dit is de site van het klassentoernooi van het Barlaeus gymnasium in
-  2017.
-
-'
+description:
 baseurl: 
 url: 
 repository: klassentoernooi/klassentoernooi.github.io
