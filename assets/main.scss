@@ -164,7 +164,7 @@ label[for="nav-trigger"] {
 }
 
 body {
-	background: url("/assets/paleis.gif") 100% 220px no-repeat, url("/assets/achtergrond.jpg");
+	background: url("/assets/paleis.gif") 100% 150px no-repeat, url("/assets/achtergrond.jpg");
 	padding-left: 0px;
 	
 }
@@ -179,6 +179,6 @@ body {
 	}
 
     .post {
-		max-width: (900px - (20px * 2));
+		max-width: (850px - (20px * 2));
 	}
 }
