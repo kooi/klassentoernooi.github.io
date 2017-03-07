@@ -47,6 +47,9 @@ sponsors:
 - naam: Swart&co
   logo: "/uploads/swartenco.gif"
   link: http://www.swartenco.nl/
+- naam: FC Hyena
+  logo: "/uploads/hyena.gif"
+  link: https://fchyena.nl/
 ---
 
 <p>
