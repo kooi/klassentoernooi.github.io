@@ -38,6 +38,15 @@ sponsors:
 - naam: HCM support
   logo: "/assets/sponsor-logos/hcmsupport.gif"
   link: http://www.hcmsupport.nl/
+- naam: Eilders
+  logo: "/uploads/eilders.gif"
+  link: http://www.eildersreclame.nl/
+- naam: The Future Firm
+  logo: "/uploads/thefuturefirm.gif"
+  link: http://thefuturefirm.com/
+- naam: Swart&co
+  logo: "/uploads/swartenco.gif"
+  link: http://www.swartenco.nl/
 ---
 
 <p>
