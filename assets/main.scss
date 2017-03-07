@@ -23,7 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    1100px;
 
-$on-palm:          860px;
+$on-palm:          970px;
 $on-laptop:        900px;
 
 video {
@@ -177,11 +177,5 @@ body {
 @media screen and (min-width: 500px) {
     .post {
 		max-width: (850px - (20px * 2));
-	}
-}
-
-@media screen and (max-width: 1000px) {
-	.wrapper {
-		margin-left: 10vw;
 	}
 }
