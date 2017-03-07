@@ -20,6 +20,9 @@ layout: page
   {% assign id= (hash[1].onderdeel | replace: ' ' '_') %}
   <div id="{{ id }}"><h2>{{ hash[1].onderdeel | capitalize }}:</h2></div>
   <p> {{ hash[1].tekst }} </p>
+  {% if hash[1].deelnemers %}
+  <p> Deelnemers: {{ hash[1].deelnemers }}</p>
+  {% endif %}
   </div>
 {% endfor %}
 </div>
