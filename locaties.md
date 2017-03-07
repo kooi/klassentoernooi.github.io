@@ -3,13 +3,12 @@ title: Locaties
 permalink: "/locaties/"
 layout: page
 locaties:
-  - naam: Vondelpark
-    maps: 52.360202,+4.872751
-  - naam: Melkweg
-    maps: Melkweg,Amsterdam+Netherlands
-  - naam: Olympiaplein
-    maps: AVV Swift,Olympiaplein,+Amsterdam
-
+- naam: Vondelpark
+  maps: 52.360202,+4.872751
+- naam: Melkweg
+  maps: Melkweg,Amsterdam+Netherlands
+- naam: Olympiaplein
+  maps: AVV Swift,Olympiaplein,+Amsterdam
 ---
 
 <div class="inhoud">
