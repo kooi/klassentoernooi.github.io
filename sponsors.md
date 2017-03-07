@@ -35,6 +35,9 @@ sponsors:
 - naam: Lokaliften
   logo: "/assets/sponsor-logos/lokaliften.gif"
   link: http://www.lokaliften.nl/
+- naam: HCM support
+  logo: "/assets/sponsor-logos/hcmsupport.gif"
+  link: http://www.hcmsupport.nl/
 ---
 
 <p>
