@@ -23,7 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    1100px;
 
-$on-palm:          970px;
+$on-palm:          860px;
 $on-laptop:        900px;
 
 video {
@@ -158,12 +158,13 @@ body {
 	.site-nav .page-link:not(:last-child) {
 		margin-right: 25px;
 	}
+}
 
+@media screen and (min-width: 1000px) {
 	body {
 		background: url("/assets/paleis.gif") 100% 150px no-repeat, url("/assets/achtergrond.jpg");
 	}
 }
-
 
 @font-face {
     font-family: 'arabolical1';
