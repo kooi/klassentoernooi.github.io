@@ -14,9 +14,9 @@ $spacing-unit:     30px;
 
 $text-color:       #fcfcfc;
 $background-color: #e4d5b8;
-$brand-color:      #2a7ae2;
+$brand-color:      #d4be00;
 
-$grey-color:       #464646;
+$grey-color:       #9e9e9e;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -36,6 +36,7 @@ video {
 }
 
 .inhoud {
+	background-color: #f8eadd;
 	width: 300px;
 	border: 2px;
 	border-style: solid;
