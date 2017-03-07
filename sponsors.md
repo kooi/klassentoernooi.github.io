@@ -42,7 +42,7 @@ sponsors:
   logo: "/uploads/eilders.gif"
   link: http://www.eildersreclame.nl/
 - naam: The Future Firm
-  logo: "/uploads/thefuturefirm.gif"
+  logo: "/uploads/thefuturefirm.png"
   link: http://thefuturefirm.com/
 - naam: Swart&co
   logo: "/uploads/swartenco.gif"
