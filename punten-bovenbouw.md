@@ -1,7 +1,6 @@
 ---
 title: Punten BB
 permalink: "/bovenbouw/"
-layout: page
 klassen:
 - 3A
 - 3B
@@ -484,6 +483,7 @@ resultaten:
   - klas: 5E
     punten: 0
 weging: 1
+layout: page
 ---
 
 {% include punten.html %}
