@@ -36,7 +36,7 @@ sponsors:
   logo: "/assets/sponsor-logos/lokaliften.gif"
   link: http://www.lokaliften.nl/
 - naam: HCM support
-  logo: "/uploads/hcmsupport.gif"
+  logo: "/uploads/hcmsupport-a146bc.gif"
   link: http://www.hcmsupport.nl/
 - naam: Eilders
   logo: "/uploads/eilders.gif"
