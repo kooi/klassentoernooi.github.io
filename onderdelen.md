@@ -23,6 +23,9 @@ layout: page
   {% if hash[1].deelnemers %}
   <p> Deelnemers: {{ hash[1].deelnemers }}</p>
   {% endif %}
+  {% if hash[1].deadline %}
+  <p> Deadline: {{ hash[1].deadline }}</p>
+  {% endif %}
   </div>
 {% endfor %}
 </div>
