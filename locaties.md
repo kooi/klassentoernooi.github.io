@@ -72,10 +72,12 @@ layout: page
 {% endfor %}
 </div>
 
+<div class="lokalen">
 <h3><div id="lokalen">Lokalen</div></h3>
 {% for lokaal in page.lokalen %}
-<div class="geenmarge">* {{ lokaal.klas }} - {{ lokaal.lokaal }}</div>
+* {{ lokaal.klas }} - {{ lokaal.lokaal }}
 {% endfor %}
+</div>
 
 {% for locatie in page.locaties %}
 <h3><span id="{{ locatie.naam }}">{{ locatie.naam | capitalize }}:</span></h3>
