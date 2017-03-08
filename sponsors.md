@@ -50,6 +50,9 @@ sponsors:
 - naam: FC Hyena
   logo: "/uploads/hyena.gif"
   link: https://fchyena.nl/
+- naam: CZAR
+  logo: "/uploads/CZAR-NL-2b0a36.gif"
+  link: http://czar.nl/
 ---
 
 <p>
