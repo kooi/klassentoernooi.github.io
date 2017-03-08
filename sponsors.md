@@ -39,8 +39,8 @@ sponsors:
   logo: "/uploads/hcmsupport-a146bc.gif"
   link: http://www.hcmsupport.nl/
 - naam: Eilders
-  logo: "/uploads/eilders.gif"
-  link: http://www.eildersreclame.nl/
+  logo: "/uploads/eijlders.gif"
+  link: https://www.leidseplein.amsterdam/cafe/cafe-eijlders
 - naam: The Future Firm
   logo: "/uploads/thefuturefirm.png"
   link: http://thefuturefirm.com/
