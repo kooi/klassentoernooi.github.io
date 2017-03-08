@@ -56,6 +56,9 @@ sponsors:
 - naam: Café Reynders
   logo: "/uploads/logo.gif"
   link: http://www.cafereynders.nl/#1
+- naam: Athenaeum Boekhandel
+  logo: "/uploads/athenaeum.gif"
+  link: http://www.athenaeum.nl/
 ---
 
 <p>
