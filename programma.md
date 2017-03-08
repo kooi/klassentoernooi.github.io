@@ -4,4 +4,6 @@ permalink: "/programma/"
 layout: page
 ---
 
-<img width="500" src="/assets/programma.jpg">
+<img width="500" src="/assets/programma.jpg">\\
+
+القرف
