@@ -6,4 +6,4 @@ layout: page
 
 <img width="500" src="/assets/programma.jpg">\\
 
-القرف
+بطولة الدرجة البهجة
