@@ -4,6 +4,4 @@ permalink: "/programma/"
 layout: page
 ---
 
-<img width="500" src="/assets/programma.jpg">\\
-
-بطولة الدرجة البهجة
+<img width="500" src="/assets/programma.jpg">
