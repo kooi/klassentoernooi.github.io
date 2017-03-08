@@ -53,6 +53,9 @@ sponsors:
 - naam: CZAR
   logo: "/uploads/CZAR-NL-2b0a36.gif"
   link: http://czar.nl/
+- naam: Café Reynders
+  logo: "/uploads/logo.gif"
+  link: http://www.cafereynders.nl/#1
 ---
 
 <p>
