@@ -74,7 +74,7 @@ layout: page
 
 <h3><div id="lokalen">Lokalen</div></h3>
 {% for lokaal in page.lokalen %}
-{{ lokaal.kas }} - {{ lokaal.lokaal }}
+{{ lokaal.klas }} - {{ lokaal.lokaal }}
 {% endfor %}
 
 {% for locatie in page.locaties %}
