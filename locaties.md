@@ -1,7 +1,6 @@
 ---
 title: Locaties
 permalink: "/locaties/"
-layout: page
 locaties:
 - naam: Vondelpark
   maps: 52.360202,+4.872751
@@ -9,6 +8,9 @@ locaties:
   maps: Melkweg,Amsterdam+Netherlands
 - naam: Olympiaplein
   maps: AVV Swift,Olympiaplein,+Amsterdam
+- naam: Barlaeus
+  maps: Barlaeus+Gymnasium,Weteringschans,Amsterdam
+layout: page
 ---
 
 <div class="inhoud">
