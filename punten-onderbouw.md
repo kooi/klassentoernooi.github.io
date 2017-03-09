@@ -1,23 +1,17 @@
 ---
 title: Punten OB
 permalink: "/onderbouw/"
-layout: page
 klassen:
-- 3A
-- 3B
-- 3C
-- 3D
-- 3E
-- 4A
-- 4B
-- 4C
-- 4D
-- 4E
-- 5A
-- 5B
-- 5C
-- 5D
-- 5E
+- 1A
+- 1B
+- 1C
+- 1D
+- 1E
+- 2A
+- 2B
+- 2C
+- 2D
+- 2E
 strafpunten: 
 resultaten:
 - naam: cricket
@@ -342,6 +336,7 @@ resultaten:
     punten: 0
   - klas: 2E
     punten: 0
+layout: page
 ---
 
 {% include punten.html %}
