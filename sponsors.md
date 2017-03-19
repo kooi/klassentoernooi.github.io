@@ -59,6 +59,12 @@ sponsors:
 - naam: Athenaeum Boekhandel
   logo: "/uploads/athenaeum.gif"
   link: http://www.athenaeum.nl/
+- naam: Linda
+  logo: "/uploads/linda.gif"
+  link: http://www.lindanieuws.nl/alles-over-linda/meiden/
+- naam: Rabobank
+  logo: "/uploads/rabobank.gif"
+  link: https://www.rabobank.com/nl/home/index.html
 ---
 
 <p>
