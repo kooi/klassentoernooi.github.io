@@ -176,7 +176,11 @@ body {
 
 
 @media screen and (min-width: 500px) {
-    .post .home {
+    .post {
 		max-width: (850px - (20px * 2));
-	}
+    }
+
+    .home {
+		max-width: (850px - (20px * 2));
+    }
 }
