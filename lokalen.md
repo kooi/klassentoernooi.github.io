@@ -1,6 +1,6 @@
 ---
 title: Lokalen
-permalink: /lokalen
+permalink: "/lokalen"
 layout: page
 lokalen:
 - klas: 1A
