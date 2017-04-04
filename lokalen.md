@@ -13,7 +13,7 @@ lokalen:
 - klas: 1E
   lokaal: 1.12
 - klas: 2A
-  lokaal: 1.1
+  lokaal: 1.10
 - klas: 2B
   lokaal: 1.4
 - klas: 2C
