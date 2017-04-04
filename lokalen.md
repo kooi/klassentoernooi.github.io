@@ -1,7 +1,6 @@
 ---
 title: Lokalen
 permalink: "/lokalen"
-layout: page
 lokalen:
 - klas: 1A
   lokaal: 2.7
@@ -53,6 +52,7 @@ lokalen:
   lokaal: S2
 - klas: 5E
   lokaal: 1.1
+layout: page
 ---
 
 <div class="lokalen">
