@@ -6,8 +6,8 @@ locaties:
   maps: 52.360202,+4.872751
 - naam: Melkweg
   maps: Melkweg,Amsterdam+Netherlands
-- naam: Olympiaplein
-  maps: AVV Swift,Olympiaplein,+Amsterdam
+- naam: Sportpark Middenmeer
+  maps: Sportpark+Middenmeer,Middenweg,Amsterdam
 - naam: Barlaeus
   maps: Barlaeus+Gymnasium,Weteringschans,Amsterdam
 layout: page
