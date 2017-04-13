@@ -19,3 +19,8 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+defaults:
+  - scope:
+      path: "assets/fotos"
+    values:
+      fotos: true
