@@ -1,5 +1,5 @@
 ---
-title: Praktische info voetbal
+title: Praktische info voetbal en cricket
 date: 2017-04-13 17:11:00 +02:00
 ---
 
