@@ -8,6 +8,11 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: assets/fotos
+  values:
+    fotos: true
 description: 'Contact op: klassentoernooi@barlaeus.nl'
 baseurl: 
 url: 
@@ -19,8 +24,3 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
-defaults:
-  - scope:
-      path: "assets/fotos"
-    values:
-      fotos: true
