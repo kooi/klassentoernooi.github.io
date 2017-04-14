@@ -24,6 +24,6 @@ Voetbal (onderbouw):
 
 Voetbal (bovenbouw):
 
-![voetbalbb1.jpg](/uploads/voetbalbb1.jpg)
+![voetbalbb01.jpg](/uploads/voetbalbb01.jpg)
 ![voetbalbb2.jpg](/uploads/voetbalbb2.jpg)
 ![voetbalbb3.jpg](/uploads/voetbalbb3.jpg)
