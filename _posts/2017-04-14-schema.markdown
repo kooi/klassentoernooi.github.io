@@ -18,9 +18,9 @@ Nog niet bekend
 
 Voetbal (onderbouw):
 
-![voetbalob1.jpg](/uploads/voetbalob1.jpg)
-![voetbalob2.jpg](/uploads/voetbalob2.jpg)
 ![voetbalob3.jpg](/uploads/voetbalob3.jpg)
+![voetbalob2.jpg](/uploads/voetbalob2.jpg)
+![voetbalob1.jpg](/uploads/voetbalob1.jpg)
 
 Voetbal (bovenbouw):
 
