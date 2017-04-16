@@ -1,5 +1,5 @@
 ---
-title: Schema
+title: Schema's
 permalink: "/schema/"
 type: page
 ---
