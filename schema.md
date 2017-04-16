@@ -1,8 +1,9 @@
 ---
 title: Schema
+permalink: "/schema/"
 type: page
-permalink: /schema/
 ---
+
 Vierkamp:
 
 ![vierkamp1.jpg](/uploads/vierkamp1.jpg)
