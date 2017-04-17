@@ -15,7 +15,7 @@ Cricket (onderbouw):
 
 Cricket (bovenbouw):
 
-Nog niet bekend
+![cricketbb.jpg](/uploads/cricketbb.jpg)
 
 Voetbal (onderbouw):
 
