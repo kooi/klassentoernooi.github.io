@@ -20,7 +20,7 @@ klassen:
 strafpunten: 
 resultaten:
 - naam: cricket
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 3A
     punten: 0
@@ -53,7 +53,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: culinair
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 3A
     punten: 0
@@ -86,7 +86,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: dans
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -119,7 +119,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: eloquentia
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -185,7 +185,7 @@ resultaten:
   - klas: 5E
     punten: 11
 - naam: film
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -251,7 +251,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: mast
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -285,7 +285,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: muziek
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -318,7 +318,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: schaken
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 3A
     punten: 0
@@ -351,7 +351,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: themawerkstuk
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -384,7 +384,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: toneel
-  weging: 1
+  weging: 3
   resultaten:
   - klas: 3A
     punten: 0
@@ -417,7 +417,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: voetbal
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 3A
     punten: 0
@@ -450,7 +450,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: zeskamp
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 3A
     punten: 0
