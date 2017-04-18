@@ -354,35 +354,35 @@ resultaten:
   weging: 3
   resultaten:
   - klas: 3A
-    punten: 0
+    punten: 5
   - klas: 3B
-    punten: 0
+    punten: 1
   - klas: 3C
-    punten: 0
+    punten: 2
   - klas: 3D
-    punten: 0
+    punten: 3
   - klas: 3E
-    punten: 0
+    punten: 5
   - klas: 4A
-    punten: 0
+    punten: 13
   - klas: 4B
-    punten: 0
+    punten: 8
   - klas: 4C
-    punten: 0
+    punten: 10
   - klas: 4D
-    punten: 0
+    punten: 15
   - klas: 4E
-    punten: 0
+    punten: 11
   - klas: 5A
-    punten: 0
+    punten: 7
   - klas: 5B
-    punten: 0
+    punten: 13
   - klas: 5C
-    punten: 0
+    punten: 7
   - klas: 5D
-    punten: 0
+    punten: 14
   - klas: 5E
-    punten: 0
+    punten: 9
 - naam: toneel
   weging: 3
   resultaten:
