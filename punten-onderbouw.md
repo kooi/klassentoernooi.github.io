@@ -107,7 +107,7 @@ resultaten:
   - klas: 2E
     punten: 0
 - naam: estafette
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 1A
     punten: 0
