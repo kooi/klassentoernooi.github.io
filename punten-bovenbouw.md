@@ -324,7 +324,7 @@ resultaten:
   - klas: 3B
     punten: 9
   - klas: 3C
-    punten: 10
+    punten: 9
   - klas: 3D
     punten: 15
   - klas: 3E
