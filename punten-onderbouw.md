@@ -13,15 +13,6 @@ klassen:
 - 2D
 - 2E
 strafpunten: 
-- klas: 1C:
-  reden: Te laat (schaken)
-  strafpunten: 5
-- klas: 1D
-  reden: Afsnijden (estafette)
-  strafpunten: 5
-- klas: 1E
-  reden: Te laat (schaken)
-  strafpunten: 5
 resultaten:
 - naam: cricket
   weging: 2
