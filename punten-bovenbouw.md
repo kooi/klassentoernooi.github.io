@@ -17,7 +17,13 @@ klassen:
 - 5C
 - 5D
 - 5E
-strafpunten: 
+strafpunten:
+- klas: 4A
+  strafpunten: 5
+  reden: te vroeg gestart
+- klas: 4E
+  strafpunten: 3
+  reden: te vroeg gestart
 resultaten:
 - naam: cricket
   weging: 2

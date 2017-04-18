@@ -13,6 +13,30 @@ klassen:
 - 2D
 - 2E
 strafpunten: 
+- klas: 2E
+  strafpunten: 5
+  reden: hinderen
+- klas: 1D
+  strafpunten: 5
+  reden: afsnijden
+- klas: 4C
+  strafpunten: 3
+  reden: bandje laten liggen
+- klas: 2A
+  strafpunten: 5
+  reden: afsnijden
+- klas: 3A
+  strafpunten: 5
+  reden: afsnijden
+- klas: 2D
+  strafpunten: 3
+  reden: bandje
+- klas: 1E
+  strafpunten: 5
+  reden: te laat schaken
+- klas: 1C
+  strafpunten: 5
+  reden: te laat schaken
 resultaten:
 - naam: cricket
   weging: 2
