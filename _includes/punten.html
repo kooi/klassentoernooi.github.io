@@ -30,7 +30,7 @@
     {% assign klassenArray = "" | split: "" %}
     {% for klas in onderdeel.resultaten %}
       {% assign juries = (klas.jury | sort) %}
-      {% assign juries = (juries | pop | pop | reverse | pop | pop | reverse) %}
+      {% assign juries = (juries | pop | reverse | pop | reverse) %}
       {% assign aantalJuries = (juries | size) %}
       {% assign jurypunten=0.0 %}
 
@@ -156,7 +156,7 @@
     {% assign klassenArray = "" | split: "" %}
     {% for klas in onderdeel.resultaten %}
       {% assign juries = (klas.jury | sort) %}
-      {% assign juries = (juries | pop | pop | reverse | pop | pop | reverse) %}
+      {% assign juries = (juries | pop | reverse | pop | reverse) %}
       {% assign aantalJuries = (juries | size) %}
       {% assign jurypunten=0.0 %}
 
