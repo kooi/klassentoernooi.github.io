@@ -33,25 +33,25 @@ resultaten:
   - klas: 3E
     punten: 0
   - klas: 4A
-    punten: 10
+    punten: 0
   - klas: 4B
-    punten: 13
+    punten: 0
   - klas: 4C
     punten: 0
   - klas: 4D
-    punten: 14
+    punten: 0
   - klas: 4E
     punten: 0
   - klas: 5A
-    punten: 12
+    punten: 0
   - klas: 5B
     punten: 0
   - klas: 5C
-    punten: 15
+    punten: 0
   - klas: 5D
     punten: 0
   - klas: 5E
-    punten: 11
+    punten: 0
 - naam: culinair
   weging: 1
   resultaten:
