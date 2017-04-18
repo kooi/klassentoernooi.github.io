@@ -152,7 +152,7 @@ resultaten:
   - klas: 5E
     punten: 0
 - naam: estafette
-  weging: 1
+  weging: 2
   resultaten:
   - klas: 3A
     punten: 0
