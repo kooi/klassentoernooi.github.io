@@ -460,8 +460,8 @@ resultaten:
     punten: 0
   - klas: 5E
     punten: 0
-- naam: zeskamp
-  weging: 2
+- naam: vierkamp
+  weging: 4
   resultaten:
   - klas: 3A
     punten: 0
