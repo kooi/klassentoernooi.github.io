@@ -18,9 +18,15 @@ klassen:
 - 5D
 - 5E
 strafpunten:
+- klas: 3A
+  strafpunten: 5
+  reden: afsnijden
 - klas: 4A
   strafpunten: 5
   reden: te vroeg gestart
+- klas: 4C
+  strafpunten: 3
+  reden: bandje laten liggen
 - klas: 4E
   strafpunten: 3
   reden: te vroeg gestart
