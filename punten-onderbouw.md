@@ -248,25 +248,25 @@ resultaten:
   weging: 3
   resultaten:
   - klas: 1A
-    punten: 6
-  - klas: 1B
-    punten: 12
-  - klas: 1C
-    punten: 18
-  - klas: 1D
     punten: 3
+  - klas: 1B
+    punten: 4
+  - klas: 1C
+    punten: 6
+  - klas: 1D
+    punten: 1
   - klas: 1E
-    punten: 12
+    punten: 4
   - klas: 2A
-    punten: 24
+    punten: 8
   - klas: 2B
-    punten: 27
+    punten: 9
   - klas: 2C
-    punten: 30
+    punten: 10
   - klas: 2D
-    punten: 24
+    punten: 8
   - klas: 2E
-    punten: 15
+    punten: 5
 - naam: toneel
   weging: 3
   resultaten:
