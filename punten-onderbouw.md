@@ -31,6 +31,15 @@ strafpunten:
 - klas: 1C
   strafpunten: 5
   reden: te laat schaken
+- klas: 1D
+  strafpunten: 5
+  reden: Herrie in de zaal
+- klas: 1C
+  strafpunten: 8
+  reden: muziek niet op tijd ingeleverd
+- klas: 1E
+  strafpunten: 8
+  reden: muziek niet op tijd ingeleverd
 resultaten:
 - naam: cricket
   weging: 2
