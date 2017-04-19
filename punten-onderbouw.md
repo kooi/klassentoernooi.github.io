@@ -147,7 +147,7 @@ resultaten:
     punten: 6
   - klas: 2E
     punten: 3
-- naam: geheim_onderdeel
+- naam: geheim_onderdeel_1
   weging: 1
   resultaten:
   - klas: 1A
@@ -170,6 +170,52 @@ resultaten:
     punten: 3
   - klas: 2E
     punten: 10
+- naam: geheim_onderdeel_2
+  weging: 1
+  resultaten:
+  - klas: 1A
+    punten: 0
+  - klas: 1B
+    punten: 0
+  - klas: 1C
+    punten: 0
+  - klas: 1D
+    punten: 0
+  - klas: 1E
+    punten: 0
+  - klas: 2A
+    punten: 0
+  - klas: 2B
+    punten: 0
+  - klas: 2C
+    punten: 0
+  - klas: 2D
+    punten: 0
+  - klas: 2E
+    punten: 0
+- naam: geheim_onderdeel_3
+  weging: 1
+  resultaten:
+  - klas: 1A
+    punten: 0
+  - klas: 1B
+    punten: 0
+  - klas: 1C
+    punten: 0
+  - klas: 1D
+    punten: 0
+  - klas: 1E
+    punten: 0
+  - klas: 2A
+    punten: 0
+  - klas: 2B
+    punten: 0
+  - klas: 2C
+    punten: 0
+  - klas: 2D
+    punten: 0
+  - klas: 2E
+    punten: 0
 - naam: improviastiebattle
   weging: 3
   resultaten:
