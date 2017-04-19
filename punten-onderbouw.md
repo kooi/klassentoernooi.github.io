@@ -183,25 +183,25 @@ resultaten:
   weging: 1
   resultaten:
   - klas: 1A
-    punten: 2
-  - klas: 1B
-    punten: 4
-  - klas: 1C
-    punten: 10
-  - klas: 1D
-    punten: 5
-  - klas: 1E
-    punten: 7
-  - klas: 2A
-    punten: 1
-  - klas: 2B
     punten: 9
-  - klas: 2C
-    punten: 8
-  - klas: 2D
-    punten: 3
-  - klas: 2E
+  - klas: 1B
+    punten: 7
+  - klas: 1C
+    punten: 1
+  - klas: 1D
     punten: 6
+  - klas: 1E
+    punten: 4
+  - klas: 2A
+    punten: 10
+  - klas: 2B
+    punten: 2
+  - klas: 2C
+    punten: 3
+  - klas: 2D
+    punten: 8
+  - klas: 2E
+    punten: 5
 - naam: GO_3
   weging: 1
   resultaten:
