@@ -37,7 +37,7 @@ strafpunten:
 - klas: 1C
   strafpunten: 8
   reden: muziek niet op tijd ingeleverd
-- klas: 1E
+- klas: 2E
   strafpunten: 8
   reden: muziek niet op tijd ingeleverd
 resultaten:
