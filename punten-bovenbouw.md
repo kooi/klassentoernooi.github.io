@@ -30,6 +30,27 @@ strafpunten:
 - klas: 4E
   strafpunten: 3
   reden: te vroeg gestart
+- klas: 4A
+  strafpunten: 9
+  reden: film te lang
+- klas: 4B
+  strafpunten: 6
+  reden: film te lang
+- klas: 4C
+  strafpunten: 6
+  reden: film te lang
+- klas: 4E
+  strafpunten: 12
+  reden: film te lang
+- klas: 5A
+  strafpunten: 15
+  reden: film te lang
+- klas: 5B
+  strafpunten: 15
+  reden: film te lang
+- klas: 5D
+  strafpunten: 6
+  reden: film te lang
 resultaten:
 - naam: cricket
   weging: 2
