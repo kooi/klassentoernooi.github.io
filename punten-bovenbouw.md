@@ -229,7 +229,7 @@ resultaten:
     punten: 0
   - klas: 5E
     punten: 0
-- naam: geheim_onderdeel
+- naam: geheim_onderdeel_1
   weging: 1
   resultaten:
   - klas: 3A
@@ -262,6 +262,72 @@ resultaten:
     punten: 12
   - klas: 5E
     punten: 13
+- naam: geheim_onderdeel_2
+  weging: 1
+  resultaten:
+  - klas: 3A
+    punten: 0
+  - klas: 3B
+    punten: 0
+  - klas: 3C
+    punten: 0
+  - klas: 3D
+    punten: 0
+  - klas: 3E
+    punten: 0
+  - klas: 4A
+    punten: 0
+  - klas: 4B
+    punten: 0
+  - klas: 4C
+    punten: 0
+  - klas: 4D
+    punten: 0
+  - klas: 4E
+    punten: 0
+  - klas: 5A
+    punten: 0
+  - klas: 5B
+    punten: 0
+  - klas: 5C
+    punten: 0
+  - klas: 5D
+    punten: 0
+  - klas: 5E
+    punten: 0
+- naam: geheim_onderdeel_3
+  weging: 1
+  resultaten:
+  - klas: 3A
+    punten: 0
+  - klas: 3B
+    punten: 0
+  - klas: 3C
+    punten: 0
+  - klas: 3D
+    punten: 0
+  - klas: 3E
+    punten: 0
+  - klas: 4A
+    punten: 0
+  - klas: 4B
+    punten: 0
+  - klas: 4C
+    punten: 0
+  - klas: 4D
+    punten: 0
+  - klas: 4E
+    punten: 0
+  - klas: 5A
+    punten: 0
+  - klas: 5B
+    punten: 0
+  - klas: 5C
+    punten: 0
+  - klas: 5D
+    punten: 0
+  - klas: 5E
+    punten: 0
 - naam: mast
   weging: 3
   resultaten:
