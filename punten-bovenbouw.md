@@ -68,35 +68,35 @@ resultaten:
   weging: 2
   resultaten:
   - klas: 3A
-    punten: 0
+    punten: 9
   - klas: 3B
-    punten: 0
+    punten: 10
   - klas: 3C
-    punten: 0
+    punten: 2
   - klas: 3D
-    punten: 0
+    punten: 9
   - klas: 3E
-    punten: 0
+    punten: 4
   - klas: 4A
-    punten: 0
+    punten: 11
   - klas: 4B
-    punten: 0
+    punten: 3
   - klas: 4C
-    punten: 0
+    punten: 5
   - klas: 4D
-    punten: 0
+    punten: 12
   - klas: 4E
-    punten: 0
+    punten: 1
   - klas: 5A
-    punten: 0
+    punten: 6
   - klas: 5B
-    punten: 0
+    punten: 7
   - klas: 5C
-    punten: 0
+    punten: 14
   - klas: 5D
-    punten: 0
+    punten: 15
   - klas: 5E
-    punten: 0
+    punten: 13
 - naam: dans
   weging: 3
   resultaten:
