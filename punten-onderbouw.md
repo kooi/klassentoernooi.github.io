@@ -147,7 +147,7 @@ resultaten:
     punten: 6
   - klas: 2E
     punten: 3
-- naam: geheim_onderdeel_1
+- naam: GO_1
   weging: 1
   resultaten:
   - klas: 1A
@@ -170,7 +170,7 @@ resultaten:
     punten: 3
   - klas: 2E
     punten: 10
-- naam: geheim_onderdeel_2
+- naam: GO_2
   weging: 1
   resultaten:
   - klas: 1A
@@ -193,7 +193,7 @@ resultaten:
     punten: 0
   - klas: 2E
     punten: 0
-- naam: geheim_onderdeel_3
+- naam: GO_3
   weging: 1
   resultaten:
   - klas: 1A
