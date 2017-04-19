@@ -216,7 +216,7 @@ resultaten:
     punten: 0
   - klas: 2E
     punten: 0
-- naam: improviastiebattle
+- naam: improvisatiebattle
   weging: 3
   resultaten:
   - klas: 1A
