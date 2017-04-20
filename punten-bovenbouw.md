@@ -21,18 +21,12 @@ strafpunten:
 - klas: 3A
   strafpunten: 5
   reden: afsnijden
-- klas: 4A
-  strafpunten: 5
-  reden: te vroeg gestart
-- klas: 4C
-  strafpunten: 3
-  reden: bandje laten liggen
-- klas: 4E
-  strafpunten: 3
-  reden: te vroeg gestart
 - klas: 3D
   strafpunten: 15
   reden: film te lang  
+- klas: 4A
+  strafpunten: 5
+  reden: te vroeg gestart
 - klas: 4A
   strafpunten: 9
   reden: film te lang
@@ -40,8 +34,14 @@ strafpunten:
   strafpunten: 6
   reden: film te lang
 - klas: 4C
+  strafpunten: 3
+  reden: bandje laten liggen
+- klas: 4C
   strafpunten: 6
   reden: film te lang
+- klas: 4E
+  strafpunten: 3
+  reden: te vroeg gestart
 - klas: 4E
   strafpunten: 12
   reden: film te lang
