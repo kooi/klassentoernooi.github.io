@@ -45,6 +45,9 @@ strafpunten:
 - klas: 4E
   strafpunten: 12
   reden: film te lang
+- klas: 4E
+  strafpunten: 10
+  reden: lokaal trashen
 - klas: 5A
   strafpunten: 15
   reden: film te lang
@@ -57,6 +60,9 @@ strafpunten:
 - klas: 5D
   strafpunten: 6
   reden: film te lang
+- klas: 5D
+  strafpunten: 10
+  reden: lokaal trashen
 resultaten:
 - naam: cricket
   weging: 2
