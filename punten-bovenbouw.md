@@ -30,9 +30,6 @@ strafpunten:
 - klas: 4E
   strafpunten: 3
   reden: te vroeg gestart
-- klas: 3D
-  strafpunten: 15
-  reden: film te lang
 - klas: 4A
   strafpunten: 9
   reden: film te lang
@@ -51,9 +48,6 @@ strafpunten:
 - klas: 5B
   strafpunten: 15
   reden: film te lang
-- klas: 5C
-  strafpunten: 3
-  reden: film te lang
 - klas: 5D
   strafpunten: 6
   reden: film te lang
