@@ -31,6 +31,9 @@ strafpunten:
 - klas: 2A
   strafpunten: 5
   reden: afsnijden
+- klas: 2A
+  strafpunten: 5
+  reden: door generator rennen
 - klas: 2D
   strafpunten: 3
   reden: bandje
