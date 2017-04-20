@@ -390,25 +390,25 @@ resultaten:
   weging: 4
   resultaten:
   - klas: 1A
-    punten: 0
+    punten: 9
   - klas: 1B
-    punten: 0
+    punten: 1
   - klas: 1C
-    punten: 0
+    punten: 8
   - klas: 1D
-    punten: 0
+    punten: 3
   - klas: 1E
-    punten: 0
+    punten: 5
   - klas: 2A
-    punten: 0
+    punten: 8
   - klas: 2B
-    punten: 0
+    punten: 10
   - klas: 2C
-    punten: 0
+    punten: 5
   - klas: 2D
-    punten: 0
+    punten: 3
   - klas: 2E
-    punten: 0
+    punten: 6
 layout: page
 ---
 
