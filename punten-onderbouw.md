@@ -12,31 +12,31 @@ klassen:
 - 2C
 - 2D
 - 2E
-strafpunten: 
-- klas: 2E
+strafpunten:
+- klas: 1C
   strafpunten: 5
-  reden: hinderen
+  reden: te laat schaken
+- klas: 1C
+  strafpunten: 8
+  reden: muziek niet op tijd ingeleverd
 - klas: 1D
   strafpunten: 5
   reden: afsnijden
+- klas: 1D
+  strafpunten: 5
+  reden: Herrie in de zaal
+- klas: 1E
+  strafpunten: 5
+  reden: te laat schaken
 - klas: 2A
   strafpunten: 5
   reden: afsnijden
 - klas: 2D
   strafpunten: 3
   reden: bandje
-- klas: 1E
+- klas: 2E
   strafpunten: 5
-  reden: te laat schaken
-- klas: 1C
-  strafpunten: 5
-  reden: te laat schaken
-- klas: 1D
-  strafpunten: 5
-  reden: Herrie in de zaal
-- klas: 1C
-  strafpunten: 8
-  reden: muziek niet op tijd ingeleverd
+  reden: hinderen
 - klas: 2E
   strafpunten: 8
   reden: muziek niet op tijd ingeleverd
