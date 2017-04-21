@@ -21,6 +21,9 @@ strafpunten:
 - klas: 3A
   strafpunten: 5
   reden: afsnijden
+- klas: 3A
+  strafpunten: 9
+  reden: muziek te lang
 - klas: 3D
   strafpunten: 15
   reden: film te lang  
@@ -56,7 +59,10 @@ strafpunten:
   reden: film te lang
 - klas: 5C
   strafpunten: 3
-  reden: film te lang  
+  reden: film te lang
+- klas: 5C
+  strafpunten: 10
+  reden: niet luisteren naar comissieleden 
 - klas: 5D
   strafpunten: 6
   reden: film te lang
@@ -134,35 +140,35 @@ resultaten:
   weging: 3
   resultaten:
   - klas: 3A
-    punten: 0
+    punten: 3
   - klas: 3B
-    punten: 0
+    punten: 6
   - klas: 3C
-    punten: 0
+    punten: 9
   - klas: 3D
-    punten: 0
+    punten: 4
   - klas: 3E
-    punten: 0
+    punten: 7
   - klas: 4A
-    punten: 0
+    punten: 11
   - klas: 4B
-    punten: 0
+    punten: 8
   - klas: 4C
-    punten: 0
+    punten: 2
   - klas: 4D
-    punten: 0
+    punten: 9
   - klas: 4E
-    punten: 0
+    punten: 2
   - klas: 5A
-    punten: 0
+    punten: 13
   - klas: 5B
-    punten: 0
+    punten: 15
   - klas: 5C
-    punten: 0
+    punten: 14
   - klas: 5D
-    punten: 0
+    punten: 12
   - klas: 5E
-    punten: 0
+    punten: 10
 - naam: eloquentia
   weging: 3
   resultaten:

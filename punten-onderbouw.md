@@ -34,12 +34,21 @@ strafpunten:
 - klas: 2A
   strafpunten: 5
   reden: door generator rennen
+- klas: 2C
+  strafpunten: 5
+  reden: muziek te laat
 - klas: 2D
   strafpunten: 3
   reden: bandje
+- klas: 2D
+  strafpunten: 12
+  reden: muziek veel te lang
 - klas: 2E
   strafpunten: 5
   reden: hinderen
+- klas: 2E
+  strafpunten: 3
+  reden: muziek te lang
 - klas: 2E
   strafpunten: 8
   reden: muziek niet op tijd ingeleverd
