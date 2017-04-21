@@ -48,25 +48,25 @@ resultaten:
   weging: 2
   resultaten:
   - klas: 1A
-    punten: 0
+    punten: 7
   - klas: 1B
-    punten: 0
+    punten: 3
   - klas: 1C
-    punten: 0
+    punten: 5
   - klas: 1D
-    punten: 0
+    punten: 2
   - klas: 1E
-    punten: 0
+    punten: 9
   - klas: 2A
-    punten: 0
+    punten: 10
   - klas: 2B
-    punten: 0
+    punten: 8
   - klas: 2C
-    punten: 0
+    punten: 1
   - klas: 2D
-    punten: 0
+    punten: 4
   - klas: 2E
-    punten: 0
+    punten: 6
 - naam: culinair
   weging: 2
   resultaten:
