@@ -366,29 +366,75 @@ resultaten:
     punten: 7
   - klas: 2E
     punten: 2
+- naam: voetbal meisjes
+  weging: 2
+  resultaten:
+  - klas: 1A
+    punten: 7
+  - klas: 1B
+    punten: 5
+  - klas: 1C
+    punten: 9
+  - klas: 1D
+    punten: 3
+  - klas: 1E
+    punten: 1
+  - klas: 2A
+    punten: 6
+  - klas: 2B
+    punten: 4
+  - klas: 2C
+    punten: 10
+  - klas: 2D
+    punten: 2
+  - klas: 2E
+    punten: 8
+- naam: voetbal jongens
+  weging: 2
+  resultaten:
+  - klas: 1A
+    punten: 1
+  - klas: 1B
+    punten: 3
+  - klas: 1C
+    punten: 7
+  - klas: 1D
+    punten: 10
+  - klas: 1E
+    punten: 5
+  - klas: 2A
+    punten: 6
+  - klas: 2B
+    punten: 8
+  - klas: 2C
+    punten: 9
+  - klas: 2D
+    punten: 2
+  - klas: 2E
+    punten: 4
 - naam: voetbal
   weging: 2
   resultaten:
   - klas: 1A
-    punten: 0
+    punten: 4
   - klas: 1B
-    punten: 0
+    punten: 4
   - klas: 1C
-    punten: 0
+    punten: 9
   - klas: 1D
-    punten: 0
+    punten: 8
   - klas: 1E
-    punten: 0
+    punten: 2
   - klas: 2A
-    punten: 0
+    punten: 6
   - klas: 2B
-    punten: 0
+    punten: 6
   - klas: 2C
-    punten: 0
+    punten: 10
   - klas: 2D
-    punten: 0
+    punten: 1
   - klas: 2E
-    punten: 0
+    punten: 6
 - naam: vierkamp
   weging: 4
   resultaten:
